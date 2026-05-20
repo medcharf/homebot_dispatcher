@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd"
+            schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>homebot</name>
+  <version>0.1.0</version>
+  <description>
+    Minimal Language-to-Robot ROS2 proof of concept.
+    Natural language commands are parsed and dispatched
+    to a simulated robot via ROS2 topics and services.
+  </description>
+  <maintainer email="youssefelloumi037@gmail.com">Youssef Elloumi</maintainer>
+  <license>MIT</license>
+
+  <depend>rclpy</depend>
+  <depend>std_msgs</depend>
+  <depend>std_srvs</depend>
+
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

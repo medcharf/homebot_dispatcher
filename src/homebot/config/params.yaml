@@ -1,0 +1,13 @@
+# params.yaml
+# Runtime parameters loaded by the launch file.
+# ROS2 parameter files use the node name as the top-level key.
+# The nested `ros__parameters` key is required - do not rename it.
+
+sensor_node:
+  ros__parameters:
+    publish_rate_hz: 1.0
+
+robot_simulator:
+  ros__parameters:
+    current_room: "charging_station"
+    move_duration_sec: 1.5
